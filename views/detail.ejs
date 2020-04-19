@@ -1,0 +1,30 @@
+<%- include('header'); -%>
+
+<article class="detailpagina">
+
+  <img src="/Icons/museum.svg" alt="" class="ADlogo">
+  <div class="Bovenlogo">Gallery > <%=post.title%> </div>
+  <div class="Lijn"></div>
+
+  <h1 class="Dname"><%=post.title %></h1>
+
+  <img class="Dschilderij" src= <%=post.image %> >
+
+  <div class="beschrijving">
+
+    <date class="datum"><div class="Dbijtitel"><span>Artist:</span>  <%=post.artist %></date> </div> 
+
+    <date class="datum"><div class="Dbijtitel"><span>Date: </span> <%=post.date %></date> </div> 
+
+    <date class="datum"><div class="Dbijtitel"><span>Dimensions:</span>  <%=post.dim %></date> </div> 
+
+    <div class="data-filter prog"><div class="Dbijtitel"><span>Dynasty:</span> <%=post.ex %></div>  </div>
+
+ 
+   <p class="detailbeschrijving"><span>Description:</span> <br><%=post.content %></p>
+
+  </div>
+
+</article>
+
+<%- include('footer'); -%>

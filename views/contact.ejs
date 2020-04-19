@@ -1,0 +1,34 @@
+<%- include('header'); -%>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+crossorigin=""></script>
+
+<div class="infocontainer">
+    <img src="/Icons/museum.svg" alt="" class="ADlogo">
+    <div class="Bovenlogo">Chinese Art Museum </div>
+    <div class="Lijn"></div>
+</div>
+<div class="contacttitel">
+    <h2>Contact</h2>
+</div>
+<img src="/afbeeldingen/Hachtergrond.jpg" alt="" class="centerfoto">
+
+<div class="Uitleg">
+    <p>The chinese Art Museum is located in Antwerp, Chinatown. Many tourist from around the world come to Antwerp because of its multiculture feeling and our museum adds something special to it. Chinese people from around the world visit us frequently to hire the museum for their own exhibition or event. That's what makes this Museum so up to date and alive.</p>
+</div>
+
+<div id="mapid"></div>
+<ul class="infolijst">
+    <li>Tel: <div class="Bold">  +32479 60 53 71</div></li>
+    <li>Email: <div class="Bold">  cam@info.be</div></li>
+    <li>Web: <div class="BoldUnd">  www.chineseartmuseum.be</div></li>
+    <li>Adress: <div class="Bold">  Van Wesenbekestraat , Antwerp 2060</div></li>
+</ul>
+<script src="/js/leaflet.js"></script>
+
+<%- include('footer'); -%>

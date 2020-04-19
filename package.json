@@ -1,0 +1,15 @@
+{
+  "name": "dejonghe_elias_opdracht_3",
+  "version": "1.0.0",
+  "description": "Museumapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "De Jonghe Elias",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}

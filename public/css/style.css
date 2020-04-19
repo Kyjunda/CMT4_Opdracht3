@@ -1,0 +1,436 @@
+
+body {
+    background-color: rgb(99, 92, 73);
+  color: white;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+
+
+.kunstwerk {
+
+    border: 1px solid red;
+    height: 20rem;
+}
+
+
+
+
+
+/* Naviagtie styling */
+
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 4.2rem;
+    background-color:rgb(49, 46, 36);
+    bottom: 0rem;
+    box-shadow: 0px 30px 100px 0px rgba(0,0,0,0.80);
+    z-index: 100000;
+}
+
+
+
+.navigation {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding-top: 0.7rem;
+}
+
+.navIcoon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+.navItem {
+    color: red;
+    font-size: 0.6rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home pagina styling */
+
+.s1{
+    width: 100%;
+    height: 40rem;
+    font-family: 'Marcellus SC', serif;
+    border-bottom: 5px solid rgb(179, 76, 76);
+}
+.s1 div.achtergrondafb{
+    width: 100%;
+    height: 100%;
+    background-image: url("/afbeeldingen/achtergrond.jpg");
+    background-size: cover;
+}
+.s1 h1{
+    font-size: 4rem;
+    padding: 4rem 2rem;
+    height: 100%;
+    background-color: rgba(0,0,0,0.50);
+    color: white;
+}
+img.museumIcon{
+    position: absolute;
+    top: 20.3rem;
+    width: 3rem;
+    left: 10.3rem;
+}
+.s1 p{
+    position: absolute;
+    top: 25rem;
+    color: white;
+    font-family: "montserrat";
+    font-size: 1rem;
+    padding: 0 2rem;
+    text-align: right;
+}
+.graphic1{
+    width: 9rem;
+    height: 0.3rem;
+    background-color: rgb(179, 76, 76);
+    position: absolute;
+    top: 21.7rem;
+}
+.graphic2{
+    width: 9rem;
+    height: 0.3rem;
+    background-color: rgb(179, 76, 76);
+    position: absolute;
+    top: 21.7rem;
+    right: 0;
+}
+
+.s2 h2{
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+}
+.s2 img{
+    width: 80%;
+}
+.s2{
+    margin-bottom: 4rem;
+}
+.s2 div.inlichting div{
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+}
+
+.s2 div.inlichting a{
+    background-color: rgb(179, 76, 76);
+    border: none;
+    color: white;
+    font-family: "montserrat";
+    font-size: 0.8rem;
+    margin: 2rem auto;
+    padding: 1rem 4rem;
+}
+
+
+/* Painting pagina styling */
+
+.element-item {
+    width: 100%;
+    font-family: myriad-pro, sans-serif;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    padding-top: 1rem;
+   box-shadow: 0px 10px 39px 3px rgba(0,0,0,0.19); 
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 6rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    
+}
+
+
+
+.kunstwerk {
+
+    font-family: myriad-pro, sans-serif;
+    height: 20rem;
+}
+
+p {
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.name {
+    font-size: 1.2rem;
+    color: white;
+   text-transform: uppercase;
+   margin-bottom: 0.2rem;
+}
+
+.schilderij {
+    margin-bottom: 1rem;
+}
+.verder{
+    color: rgb(199, 90, 90);
+}
+
+/* Filterknoppen */
+
+.button {
+    box-shadow: 0px 10px 39px 3px rgba(0,0,0,0.10); 
+    background-color:rgb(183, 79, 79);
+    border: 1px solid grey;
+    color:rgb(219, 219, 219);
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.6rem;
+    font-size: 0.7rem;
+}
+
+.button:active {
+
+    background-color: rgb(219, 219, 219);
+    color: rgb(139, 0, 0);
+    border: 1px solid rgb(139, 0, 0);
+}
+
+.button:target {
+
+    background-color: rgb(219, 219, 219);
+    color: rgb(139, 0, 0);  
+    border: 1px solid rgb(139, 0, 0);
+}
+
+.button:focus {
+    background-color: rgb(219, 219, 219);
+    color: rgb(139, 0, 0);
+    border: 1px solid rgb(139, 0, 0);
+
+}
+
+
+.button-group {
+    color: rgb(183, 79, 79);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.1rem;
+    width: 90%;
+   
+
+}
+
+.Fheader {
+
+    color: white;
+    display: inline;
+    padding-bottom: 0.1rem;
+    
+}
+
+.knoppengroep {
+    background-color: rgb(49, 46, 36);
+    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+    box-shadow: 0px -50px 100px 0px rgba(0,0,0,0.80);
+}
+
+.filter {
+
+    width: 1rem;
+    height: 1rem;
+    display: inline
+}
+
+.filtergroep {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+}
+
+.par {
+    font-weight: 100;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*detailpagina*/
+
+.ADlogo {
+    width:1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: inline;
+}
+
+.Bovenlogo {
+    display: inline;
+    font-size: 1rem;
+    font-family: 'Marcellus SC', serif;
+    color: rgb(179, 76, 76);
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+}
+
+.Lijn {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid grey;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.galleryafb{
+    background-image: url("/paintings/img4.jpg");
+    width: 100vw;
+    height: 7rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.galleryafb h2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 2.4rem 2rem 2rem;
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+}
+
+/* Contactpagina */
+
+.Logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    margin-top: 2rem;
+}
+
+.centerfoto {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 35px 1px rgba(0,0,0,0.25);
+    margin-top: 1rem;
+}
+
+.Uitleg {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.mapid {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infocontainer {
+    padding-top: 0.3rem;
+    background-color: rgb(49, 46, 36);
+}
+.contacttitel{
+    background-color: rgb(49, 46, 36);
+    width: auto;
+    margin: -1rem auto 0;
+    padding: 0.5rem 0;
+}
+.contacttitel h2{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 0.4rem;
+    font-family: 'Marcellus SC', serif;
+}
+
+.Bold {
+    display: inline;
+    color: rgb(219, 98, 98);
+    font-weight: bolder;
+}
+
+.BoldUnd {
+    display: inline;
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+
+#mapid {
+
+    height: 18rem; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 35px 1px rgba(0,0,0,0.25);
+}
+
+.Dname{
+    margin-left: 1.1rem;
+    font-family: "montserrat";
+}
+.Dschilderij{
+    width: 90vw;
+    margin: auto;
+}
+.beschrijving{
+    margin: 1.2rem;
+}
+article{
+    padding-bottom: 6rem;
+}
+span{font-weight: bold;}
+.link{
+    position: relative;
+    top: -5rem;
+    left:7.5rem
+}

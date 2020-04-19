@@ -1,0 +1,28 @@
+<%- include('header'); -%>
+
+<div class="knoppengroep">
+  <img src="/Icons/museum.svg" alt="" class="ADlogo">
+  <div class="Bovenlogo">Chinese Art Museum </div>
+  <div class="Lijn"></div>
+  <div class="galleryafb">
+    <h2>Gallery</h2>
+  </div>
+  <div class="filtergroep">
+      <img src="/Icons/filter.svg" alt="" class="filter">
+      <div class="Fheader">Filter for dynasty</div>
+    </div>
+    
+    <div class="button-group filters-button-group">
+        <button class="button" data-filter="*">show all</button>
+        <button class="button" data-filter=".SouthernSong">Southern Song</button>
+        <button class="button" data-filter=".Tang">Tang</button>
+    </div> 
+</div>
+
+<div class="grid">
+  <% for (let i=0; i<posts.length; i++) { %>
+      <%- include('IndividuelePaintings', {post: posts[i], index: i}); -%>
+  <% } // close forloop %>
+</div>
+
+<%- include('footer'); -%>
