@@ -53,6 +53,7 @@ app.use(function(request, response){
 })
 app.set('port', (process.env.PORT || 5000)); 
 
-app.listen(app.get('port'), function() { console.log("luister naar poort: " +port});
+app.listen(app.get('port'), function() {});
 
 console.log("zet schermformaat op iPhone X");
+console.log("luister naar poort " + port);

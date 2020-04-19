@@ -432,5 +432,6 @@ span{font-weight: bold;}
 .link{
     position: relative;
     top: -5rem;
-    left:7.5rem
+    left:3.5rem;
+    font-size: 0.8rem;
 }
